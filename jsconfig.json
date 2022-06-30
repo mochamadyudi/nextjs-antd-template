@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@yid/config": ["./src/config"],
+      "@yid/constants": ["./src/lib/constants/index"],
+      "@yid/utils": ["./src/lib/utils/index"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
