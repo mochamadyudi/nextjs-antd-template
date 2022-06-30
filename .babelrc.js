@@ -30,7 +30,8 @@ module.exports  = {
                 alias: {
                     "@yid/config": "./src/config",
                     "@yid/constants": "./src/lib/constants/index",
-                    "@yid/utils": "./src/lib/utils/index"
+                    "@yid/utils": "./src/lib/utils/index",
+                    "@yid/handlers": "./src/lib/handlers/index"
                 }
             }
         ]

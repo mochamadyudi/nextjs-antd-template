@@ -1,0 +1,24 @@
+.app{
+  &-header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: $zIndex-modal;
+    display: flex;
+    box-shadow: $header-box-shadow !important;
+  }
+}
+
+.side{
+
+  &-nav{
+    height: calc(100vh - #{$header-height}) !important;
+    position: fixed !important;
+    top: $header-height !important;
+    box-shadow: $side-nav-box-shadow !important;
+    z-index: $zIndex-modal - 1 !important;
+    direction: ltr;
+  }
+
+
+}

@@ -1,0 +1,41 @@
+.app {
+
+  &-layout {
+    transition: all 0.3s ease;
+  }
+
+  &-content {
+    padding: $layout-content-gutter $layout-content-gutter $layout-content-gutter 280px;
+    margin-top: $header-height;
+    min-height: calc(100vh - #{$content-height-offset});
+    position: relative;
+    transition:.2s;
+    &.collapsed{
+      padding: $layout-content-gutter $layout-content-gutter $layout-content-gutter 110px;
+    }
+    &.app-breadcrumb {
+      margin-bottom: 15px;
+    }
+
+    &.print {padding: 0;margin-top: 0};
+
+    &.content-full {
+      min-height: 75vh;
+    }
+
+  }
+}
+
+.content {
+  &-full{
+    min-height:75px;
+
+    &-no{
+      &-page{
+        &-header{
+          min-height: 80vh;
+        }
+      }
+    }
+  }
+}

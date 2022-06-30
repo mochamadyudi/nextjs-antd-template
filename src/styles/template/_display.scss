@@ -1,0 +1,15 @@
+.flex{
+  display: flex !important;
+  &.items{
+    &-center{
+      align-items: center !important;
+    }
+  }
+
+  &.justify{
+
+    &-center{
+      justify-content: center !important;
+    }
+  }
+}
